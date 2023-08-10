@@ -28,7 +28,7 @@ body {
 
 img{
   max-width: 100%;
-  max-block-size: 100%;
+  max-height: 100%;
 }
 .header{
   width: 100%;
@@ -78,7 +78,7 @@ img{
   display: inline-block;
   vertical-align: middle;
   display: block;
-  width: 50%;
+  width: 33%;
   background-color: #FEFAE0;
 }
   .child h1{
@@ -100,7 +100,7 @@ img{
   display: inline-block;
   vertical-align: middle;
   display: block;
-  width: 50%;
+  width: 33%;
   background-color: #606C38;
 }
   .child-alt h1{
@@ -118,8 +118,30 @@ img{
     padding: 10px;
   }
 
+.child-alt-alt{
+  display: inline-block;
+  vertical-align: middle;
+  display: block;
+  width: 33%;
+  background-color: #606C38;
+}
+  .child-alt-alt h1{
+    padding: 10px;
+    color: #FEFAE0;
+  }
+
+  .child-alt-alt p{
+    padding: 10px;
+    color: #FEFAE0;
+    font-family: Basic;
+  }
+
+  .child-alt-alt img{
+    padding: 10px;
+  }
+
 .title-container{
-  padding: 30px;
+  padding: 50px;
   text-align: center;
 }
 .title-container h1{
