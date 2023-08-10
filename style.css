@@ -79,16 +79,16 @@ img{
   vertical-align: middle;
   display: block;
   width: 33%;
-  background-color: #FEFAE0;
+  background-color: #283618;
 }
   .child h1{
     padding: 10px;
-    color: #606C38;
+    color: #FEFAE0;
   }
 
   .child p{
     padding: 10px;
-    color: #606C38;
+    color: #FEFAE0;
     font-family: Basic;
   }
 
@@ -105,12 +105,12 @@ img{
 }
   .child-alt h1{
     padding: 10px;
-    color: #FEFAE0;
+    color: #283618;
   }
 
   .child-alt p{
     padding: 10px;
-    color: #FEFAE0;
+    color: #283618;
     font-family: Basic;
   }
 
@@ -123,7 +123,7 @@ img{
   vertical-align: middle;
   display: block;
   width: 33%;
-  background-color: #606C38;
+  background-color: #283618;
 }
   .child-alt-alt h1{
     padding: 10px;
