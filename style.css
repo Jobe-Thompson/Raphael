@@ -9,14 +9,27 @@
   text-decoration: none;
 }
 
+@font-face {
+  font-family: Fancy;
+  src: local(Afterglow-Regular.ttf);
+}
+
+@font-face {
+  font-family: Basic;
+  src: local(Helvetica);
+}
+
 body {
   background-color: #606C38;
   color: #FEFAE0;
-  font-family: myFont;
   font-size: 1.6rem;
   letter-spacing: 1px;
 }
 
+img{
+  max-width: 100%;
+  max-block-size: 100%;
+}
 .header{
   width: 100%;
   height: 40px;
@@ -56,13 +69,45 @@ body {
   font-size: 16px;
 }
 
-.menu-element-left{
+.parent {
+  display: flex;
+  padding: 10px;
+}
+
+.child {
+  display: inline-block;
+  vertical-align: middle;
   display: block;
   width: 50%;
   background-color: #FEFAE0;
+}
+  .child h1{
+    padding: 10px;
+    color: #606C38;
+  }
 
+  .child p{
+    padding: 10px;
+    color: #606C38;
+    font-family: Basic;
+  }
+
+.child-alt{
+  display: inline-block;
+  vertical-align: middle;
+  display: block;
+  width: 50%;
+  background-color: #606C38;
+  padding-left: 10px;
+}
+.child-alt h1{
+  padding: 10px;
+  color: #FEFAE0;
 }
 
-.menu-element-left h1{
-  color: #606C38;
+.child-alt p{
+  padding: 10px;
+  color: #FEFAE0;
+  font-family: Basic;
 }
+
