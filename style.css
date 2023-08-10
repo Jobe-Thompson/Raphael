@@ -92,22 +92,40 @@ img{
     font-family: Basic;
   }
 
+  .child img{
+    padding: 10px;
+  }
+
 .child-alt{
   display: inline-block;
   vertical-align: middle;
   display: block;
   width: 50%;
   background-color: #606C38;
-  padding-left: 10px;
 }
-.child-alt h1{
-  padding: 10px;
-  color: #FEFAE0;
-}
+  .child-alt h1{
+    padding: 10px;
+    color: #FEFAE0;
+  }
 
-.child-alt p{
-  padding: 10px;
-  color: #FEFAE0;
-  font-family: Basic;
-}
+  .child-alt p{
+    padding: 10px;
+    color: #FEFAE0;
+    font-family: Basic;
+  }
 
+  .child-alt img{
+    padding: 10px;
+  }
+
+.title-container{
+  padding: 30px;
+  text-align: center;
+}
+.title-container h1{
+  font-weight: 100;
+}
+.title-container h1 span{
+  font-family: Helvetica;
+  font-weight: 300;
+}
