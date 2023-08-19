@@ -9,6 +9,11 @@
   text-decoration: none;
 }
 
+:root{
+  --main-colour: #1A342E;
+  --second-colour: #F6F5F2;
+}
+
 @font-face {
   font-family: Fancy;
   src: local(Afterglow-Regular.ttf);
@@ -20,10 +25,14 @@
 }
 
 body {
-  background-color: #606C38;
-  color: #FEFAE0;
+  background-color: var(--second-colour);
+  color: var(--main-colour);
   font-size: 1.6rem;
   letter-spacing: 1px;
+}
+
+.Headpad{
+  padding: 10px;
 }
 
 img{
@@ -33,9 +42,12 @@ img{
 
 .header{
   width: 100%;
-  height: 40px;
+  height: 60px;
   display: block;
-  background-color: #283618;
+  background-color: var(--second-colour);
+  border-style: solid;
+  border-left: var(--second-colour);
+  border-right: var(--second-colour);
 }
 
 .inner_header{
@@ -50,12 +62,19 @@ img{
   height: 100%;
 }
 
-.navigation a{
-  height: 100%;
-  display: table;
-  float: left;
-  padding: 0px 20px;
-}
+  .navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 20px;
+  }
+
+  .navigation img{
+    display: table;
+    float: left;
+    padding-top: 10px;
+    height: 75%;
+  }
 
 .navigation a:last-child{
   padding-right: 0;
@@ -65,14 +84,19 @@ img{
   display: table-cell;
   vertical-align: middle;
   height: 100%;
-  color: #FEFAE0;
+  color: var(--main-colour);
   font-family: My-Font;
   font-size: 16px;
 }
 
 .parent {
   display: flex;
-  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  border-top: var(--main-colour) solid;
+  border-bottom: var(--main-colour) solid;
+  padding-bottom: 20px;
 }
 
 .child {
@@ -80,19 +104,19 @@ img{
   vertical-align: middle;
   display: block;
   width: 33.33333%;
-  background-color: #283618;
+  background-color: var(--main-colour);
   font-size: large;
 }
   .child h1{
     padding: 10px;
-    color: #FEFAE0;
+    color: var(--second-colour);
     font-size: 48px;
     font-family: Helvetica;
   }
 
   .child p{
     padding: 10px;
-    color: #FEFAE0;
+    color: var(--second-colour);
     font-family: Basic;
     font-size: medium;
     font-size: 16px;
@@ -106,49 +130,47 @@ img{
   display: inline-block;
   vertical-align: middle;
   width: 33.33333%;
-  background-color: #606C38;
+  background-color: var(--main-colour);
   font-size: large;
   border-style: solid;
-  border-color: #283618;
+  border-color: var(--main-colour);
   border-width: 10px;
-  border-left: #283618;
-  border-right: #283618;
+  border-left: var(--main-colour);
+  border-right: var(--main-colour);
 }
   .child-alt h1{
     padding: 10px;
-    color: #FEFAE0;
+    color: var(--second-colour);
     font-size: 48px;
     font-family: Helvetica;
   }
 
   .child-alt p{
     padding: 10px;
-    color: #FEFAE0;
+    color: var(--second-colour);
     font-family: Basic;
     font-size: 16px;
   }
 
-  .child-alt img{
-  }
 
 .child-alt-alt{
   display: inline-block;
   vertical-align: middle;
   display: block;
   width: 33.33333%;
-  background-color: #283618;
+  background-color: var(--main-colour);
   font-size: large;
 }
   .child-alt-alt h1{
     padding: 10px;
-    color: #FEFAE0;
+    color: var(--second-colour);
     font-size: 48px;
     font-family: Helvetica;
   }
 
   .child-alt-alt p{
     padding: 10px;
-    color: #FEFAE0;
+    color: var(--second-colour);
     font-family: Basic;
     font-size: 16px;
   }
@@ -158,8 +180,12 @@ img{
   }
 
 .title-container{
-  padding: 50px;
   text-align: center;
+  }
+
+  .title-container img{
+    width: 720px;
+    height: 296px;
   }
   .title-container h1{
     font-weight: 100;
@@ -173,11 +199,13 @@ img{
   }
 
 .Why-us{
-  background-color: #FEFAE0;
+  background-color: var(--second-colour);
+  border-top: var(--main-colour) solid;
+  border-bottom: var(--main-colour) solid;
 }
   .Why-us h1{
-    color: #283618;
-    padding-left: 30px;
+    color: var(--main-colour);
+    padding-left: 50px;
     font-size: 100px;
     font-weight: 100;
     padding-top: 20px;
@@ -185,18 +213,15 @@ img{
   }
 
   .Why-us p{
-    color: #283618;
-    padding-left: 20px;
+    color: var(--main-colour);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
     font-size: 20px;
     font-family: Helvetica;
   }
 
 .Divider{
-  background-color: #606C38;
-  padding: 25px;
-}
-
-ul img{
-  width: 30px;
-  height: 30px;
+  background-color: var(--second-colour);
+  padding: 50px;
 }
