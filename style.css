@@ -223,7 +223,7 @@ img{
   }
 
 .Why-us{
-  background-color: var(--second-colour);
+  background-color: var(--second-alt);
   border-top: var(--main-colour) solid;
   border-bottom: var(--main-colour) solid;
 }
@@ -240,7 +240,7 @@ img{
     color: var(--main-colour);
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     font-size: 20px;
     font-family: Helvetica;
   }
@@ -248,4 +248,40 @@ img{
 .Divider{
   background-color: var(--second-colour);
   padding: 50px;
+}
+
+.Contact{
+  background-color: var(--second-colour);
+  border-top: var(--main-colour) solid;
+}
+  .Contact h1{
+    color: var(--main-colour);
+    padding-left: 50px;
+    font-size: 100px;
+    font-weight: 100;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+.contacts_note{
+  background-color: var(--second-alt);
+  display: inline-block;
+  border-radius: 25px;
+  margin-left: 50px;
+  width: 50%;
+  text-align: center;
+  padding-top: 50px;
+  padding: 50px;
+}
+  .contacts_note img{
+    height: 203px;
+    width: 157.25px;
+  }
+
+  .contacts_note p{
+    padding-bottom: 50px;
+  }
+
+.contacts_list{
+  display: inline-block;
 }
