@@ -151,6 +151,8 @@ img{
 
   .child img{
     padding: 10px;
+    height: 50%;
+    width: 50%;
   }
 
 .child-alt{
