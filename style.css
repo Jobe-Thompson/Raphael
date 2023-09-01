@@ -151,8 +151,9 @@ img{
 
   .child img{
     padding: 10px;
-    height: ;
-    width: 50;
+    width: 204px;
+    height: 187.5px;
+    margin-left: 100px;
   }
 
 .child-alt{
@@ -173,7 +174,7 @@ img{
     padding: 10px;
     width: 196.5px;
     height: 202.5px;
-    text-align: center;
+    margin-left: 80px;
   }
 
   .child-alt p{
@@ -209,6 +210,7 @@ img{
     padding: 10px;
     height: 187.75px;
     width: 188.5px;
+    margin-left: 100px;
   }
 
 .title-container{
