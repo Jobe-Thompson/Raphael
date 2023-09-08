@@ -334,7 +334,7 @@ img{
   
   .footer{
     background-color: #1A342E;
-    height:400px;
+    height: 350px;
     color: #F6F5F2;
   }
 
@@ -351,4 +351,8 @@ img{
       font-family: Basic;
       vertical-align: top;
       padding-top: 50px;
+    }
+
+    .footerblock p{
+      padding-top: 20px;
     }
